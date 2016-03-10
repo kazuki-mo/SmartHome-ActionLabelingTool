@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ActionLabelingTool" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zff-TZ-UK3">
+                                <rect key="frame" x="25" y="30" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.8772181402" green="1" blue="0.88439418849999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="料理">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="BT_Ryouri:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AGX-Lx-WZu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VEj-iA-lHa">
+                                <rect key="frame" x="135" y="30" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.8772181402" green="1" blue="0.88439418849999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="食事">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="BT_Shokuji:" destination="BYZ-38-t0r" eventType="touchUpInside" id="isZ-gf-e2x"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wqp-Nu-zKX">
+                                <rect key="frame" x="245" y="30" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.8772181402" green="1" blue="0.88439418849999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="掃除">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="BT_Souji:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H52-kl-hup"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S7w-Kv-Vbj">
+                                <rect key="frame" x="25" y="140" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.8772181402" green="1" blue="0.88439418849999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="入浴">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="BT_Nyuyoku:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0lF-Vs-Vra"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gAy-iD-07W">
+                                <rect key="frame" x="137" y="140" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.8772181402" green="1" blue="0.88439418849999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="洗面">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="BT_Senmen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pC3-qR-yJP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m23-AI-bob">
+                                <rect key="frame" x="245" y="140" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.8772181402" green="1" blue="0.88439418849999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="食器洗い">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="BT_Shokiarai:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kjF-3N-SeK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="chv-6r-JLg">
+                                <rect key="frame" x="25" y="250" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.8772181402" green="1" blue="0.88439418849999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="睡眠">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="BT_Suimin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="erX-fW-VfA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hGa-6y-twl">
+                                <rect key="frame" x="137" y="250" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.8772181402" green="1" blue="0.88439418849999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="読書">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="BT_Dokusho:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Oje-Tx-cYn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Owk-U0-46n">
+                                <rect key="frame" x="245" y="250" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.8772181402" green="1" blue="0.88439418849999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="テレビ視聴">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="BT_TV:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Oqu-UC-Ppr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M9v-z8-MGE">
+                                <rect key="frame" x="25" y="360" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.8772181402" green="1" blue="0.88439418849999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="風呂掃除">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="BT_Furosouji:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OvJ-Y0-Yks"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wmj-f2-SjN">
+                                <rect key="frame" x="137" y="360" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.8772181402" green="1" blue="0.88439418849999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="PC">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="BT_PC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HS2-Xf-X2J"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vcr-3Q-W2W">
+                                <rect key="frame" x="245" y="360" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.8772181402" green="1" blue="0.88439418849999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="洗濯">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="BT_Sentaku:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f8e-Ur-VeH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hZM-3a-fW2">
+                                <rect key="frame" x="25" y="470" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.8772181402" green="1" blue="0.88439418849999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="ゲーム">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="BT_Game:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r5f-5j-UPw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="77b-mq-dSA">
+                                <rect key="frame" x="137" y="470" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.8772181402" green="1" blue="0.88439418849999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="スマホ">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="BT_Sumaho:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0jr-d9-pET"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EG1-k6-gO9">
+                                <rect key="frame" x="245" y="470" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.8772181402" green="1" blue="0.88439418849999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="外出">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="BT_Gaishutu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nJY-Bj-Xnc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t85-ws-HvN">
+                                <rect key="frame" x="0.0" y="579" width="375" height="68"/>
+                                <color key="backgroundColor" red="0.99923203742430944" green="0.87882902478444536" blue="0.88501692063102344" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="間違えた！">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="BT_Cancel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Vb-1a-aqM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="11.5" y="374.5"/>
+        </scene>
+    </scenes>
+</document>
